@@ -54,7 +54,8 @@
     #define FOUNDATION_SYSTEM_UNIX
     // POSIX
 #else
-#   error "foundation: system: Unknown compiler"
+    #define FOUNDATION_SYSTEM_UNIX
+//#   error "foundation: system: Unknown compiler"
 #endif
 
 #endif
